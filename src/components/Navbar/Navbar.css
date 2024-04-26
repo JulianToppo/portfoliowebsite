@@ -1,0 +1,30 @@
+.heading {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bolder;
+
+}
+
+.navbar {
+    margin: 20px;
+    padding: 20px;
+    display: flex;   
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+}
+
+.navitems {
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: aqua; */
+    width: 60%;
+    list-style-type: none;
+}
+
+.navitems li a{
+    text-decoration: none;
+    
+}
