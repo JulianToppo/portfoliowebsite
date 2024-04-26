@@ -6,7 +6,7 @@ import about from "../../assets/about.jpg";
 const About = () => {
   return (
     <React.Fragment>
-      <div className="about-section">
+      <div className="about-section" id="about">
         <div className="user-photo">
           <h1>About</h1>
           <img src={about} alt="about"></img>

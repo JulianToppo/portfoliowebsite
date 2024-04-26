@@ -1,6 +1,6 @@
 import React from "react";
 import "./Introduction.css"
-
+import introImg from "../../assets/intro.jpg"
 const Introduction = () => {
   return (
     <div className="introduction-body">
@@ -11,7 +11,7 @@ const Introduction = () => {
           <button>Contact Me!</button>
       </div>
       <div className="userimage">
-        
+        <img src={introImg} alt="introduction"></img>
       </div>
     </div>
   );
