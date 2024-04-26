@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
-import backendimage from "../../assets/backend1.png";
-import about from "../../assets/about.jpg";
+
+import { getImageUrl } from "../../utils";
 
 const About = () => {
   return (
@@ -9,11 +9,12 @@ const About = () => {
       <div className="about-section" id="about">
         <div className="user-photo">
           <h1>About</h1>
-          <img src={about} alt="about"></img>
+          <img src={getImageUrl("about.jpg")} alt="about"></img>
         </div>
         <div className="skills">
           <div className="skill-items">
-            <svg className="skillimage"
+            <svg
+              className="skillimage"
               xmlns="http://www.w3.org/2000/svg"
               x="0px"
               y="0px"
@@ -55,8 +56,12 @@ const About = () => {
             </div>
           </div>
           <div className="skill-items">
-            <img className="skillimage" src={backendimage} alt="backend"></img>
-            <div className="skillinfo"> 
+            <img
+              className="skillimage"
+              src={getImageUrl("backend1.png")}
+              alt="backend"
+            ></img>
+            <div className="skillinfo">
               <h3>Backend Developer</h3>
               <p>
                 I am a backend developer with experience in building server and

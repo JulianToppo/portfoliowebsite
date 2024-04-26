@@ -1,7 +1,8 @@
 import React from "react";
 import "./Introduction.css"
-import introImg from "../../assets/intro.jpg"
+import { getImageUrl } from "../../utils";
 const Introduction = () => {
+ 
   return (
     <div className="introduction-body">
       <div className="introduction">
@@ -11,7 +12,7 @@ const Introduction = () => {
           <button>Contact Me!</button>
       </div>
       <div className="userimage">
-        <img src={introImg} alt="introduction"></img>
+        <img src={getImageUrl('intro.jpg')} alt="introduction"></img>
       </div>
     </div>
   );
