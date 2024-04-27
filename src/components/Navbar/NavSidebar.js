@@ -4,6 +4,7 @@ import "./Navbar.css";
 const NavSidebar = (props) => {
   const { isMobileVersion } = props;
 
+  console.log(isMobileVersion)
   const toggle = (e) => {
    
     if (isMobileVersion == true) {

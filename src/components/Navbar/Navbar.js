@@ -16,12 +16,16 @@ const Navbar = () => {
   };
 
   useEffect(() => {
+    handleResize(); 
     window.addEventListener("resize", handleResize);
-  });
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
 
   const ondropDownClickHandler=(e)=>{
     e.preventDefault();
-    setOpenDropDown(true)
+    setOpenDropDown(!openDropDown)
   }
 
   return (
@@ -30,8 +34,8 @@ const Navbar = () => {
         Portfolio
       </a>
 
-      {isMobile ? (
-        openDropDown===true?
+      {isMobile ? 
+        openDropDown==true?
         <NavSidebar toggleShow={setOpenDropDown} openDropDown={openDropDown} isMobileVersion={isMobile}/>
           :<img
           className="navbar-dropdown"
@@ -39,7 +43,7 @@ const Navbar = () => {
 
           onClick={ondropDownClickHandler}
         ></img>
-      ) : (
+       : (
         <NavSidebar isMobileVersion={isMobile}/>
       )}
     </div>
