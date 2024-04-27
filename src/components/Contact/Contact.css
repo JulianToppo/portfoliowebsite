@@ -1,0 +1,39 @@
+.outer-container {
+    display: block;
+    background-color: rgb(67, 85, 122);
+    margin:0px;
+    align-self: center;
+    padding: 2% 10%;
+ 
+    
+}
+h1{
+    text-transform: uppercase;
+}
+
+p,.Contact-Logo ,a{
+    background-color: inherit;
+    padding: 0;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: inherit;
+}
+
+.contact-img {
+    width: 30px;
+    height: 30px;
+    background-color: inherit;
+}
+
+.contact-info,
+.info-details {
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 10%;
+    align-items: center;
+    background-color: inherit;
+}
