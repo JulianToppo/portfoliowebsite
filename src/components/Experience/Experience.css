@@ -24,8 +24,8 @@
 .techstack img {
     padding: 10%;
     background-color: inherit;
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     object-fit: contain;
     border-radius: 100%;
 
@@ -80,4 +80,26 @@
 .smalltext{
     font-weight: 200;
     font-size: small;
+}
+
+
+@media screen and (max-width:830px) {
+    .experience {
+        flex-direction: column;
+    }
+
+    .techstack{
+       display: flex;
+       flex-wrap: wrap;
+       column-gap: 5%;
+       width:fit-content;
+      justify-content: center;
+    }
+
+    .history{
+        width: 100%;
+    }
+    .jobdetails{
+        line-height: normal;
+    }
 }
