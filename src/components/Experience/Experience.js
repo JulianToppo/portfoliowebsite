@@ -12,7 +12,7 @@ const Experience = () => {
         <div className="techstack">
           {skills?.map((skill, id) => {
             return (
-              <div key={id}>
+              <div key={id} className="technology-card">
                 <div className="image-background">
                   <img
                     src={getImageUrl(skill.imageSrc)}

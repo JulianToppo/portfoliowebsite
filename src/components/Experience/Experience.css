@@ -10,7 +10,7 @@
 .experience {
     display: flex;
     justify-content: space-between;
-    padding-inline:5%;
+    padding-inline: 5%;
 
 }
 
@@ -47,11 +47,11 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    line-height:0.9;
+    line-height: 0.9;
     letter-spacing: 0.8px;
     margin-bottom: 5%;
-    padding:2%;
-    background-image: linear-gradient(to right,rgba(64,105,163,0.5) ,rgba(0,0,0,0));
+    padding: 2%;
+    background-image: linear-gradient(to right, rgba(64, 105, 163, 0.5), rgba(0, 0, 0, 0));
     border-radius: 25px;
     column-gap: 5%;
 
@@ -65,21 +65,33 @@
     margin-bottom: 2%;
 }
 
-.worksummary ,p ,ul ,li,h4 {
+.worksummary,
+p,
+ul,
+li,
+h4 {
     background-color: transparent;
 }
 
-.worksummary{
+.worksummary {
     align-items: center;
 }
 
-.jobTitle{
+.jobTitle {
     font-weight: 600;
 }
 
-.smalltext{
+.smalltext {
     font-weight: 200;
     font-size: small;
+}
+
+.technology-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
 }
 
 
@@ -88,24 +100,27 @@
         flex-direction: column;
     }
 
-    .techstack{
-       display: flex;
-       flex-wrap: wrap;
-       column-gap: 5%;
-      width: 100%;
-      justify-content: center;
-      
+    .techstack {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 5%;
+        width: 100%;
+        justify-content: center;
+
     }
 
     .techstack img {
-         height:40px;
-         width: 40px;  
+        height: 40px;
+        width: 40px;
     }
 
-    .history{
+  
+
+    .history {
         width: 100%;
     }
-    .jobdetails{
+
+    .jobdetails {
         line-height: normal;
     }
 }

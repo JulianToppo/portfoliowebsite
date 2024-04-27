@@ -8,15 +8,19 @@ export const skills = [
     imageSrc: "skills/css.png",
   },
   {
+    title: "JS",
+    imageSrc: "skills/js.png",
+  },
+  {
     title: "React",
     imageSrc: "skills/react.png",
   },
   {
-    title: "Node",
+    title: "NodeJS",
     imageSrc: "skills/node.png",
   },
   {
-    title: "Express",
+    title: "ExpressJS",
     imageSrc: "skills/expressjs.png",
   },
 
