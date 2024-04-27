@@ -4,7 +4,7 @@ export const exp=[
       "organisation": "IIT Kanpur",
       "startDate": "Aug, 2019",
       "endDate": "Present",
-      "experiences": ["Worked on Shifting database from firebase to AWS", "Reduced the uploading time of the databse and cv matching by 12 percent"],
+      "experiences": ["Developed APIs to automate and enhance the engineering process of collecting data from the front end using JAVA, Python and AWS."," Worked with other teams to create a system to collect and synchronize in real time using AWS, and Python."],
       "imageSrc": "history/iitk.jpg"
     },
     {
@@ -12,7 +12,7 @@ export const exp=[
       "organisation": "SellerApp",
       "startDate": "Dec, 2018",
       "endDate": "March, 2019",
-      "experiences": ["Worked on synchronisation of databases"],
+      "experiences": ["Worked on synchronisation of databases and developed api's using golang"],
       "imageSrc": "history/sellerapp.png"
     },
     {
@@ -21,8 +21,7 @@ export const exp=[
       "startDate": "Jun, 2018",
       "endDate": "Oct, 2018",
       "experiences": [
-        "Coded Strategies ",
-        "Helped create UI components"
+       "Conversion of an AIProject project coded in C++ by wrapping codes in cython so that they could be called into Python.","Software Development of the Stock analysis application and the strategies(python and c++)."
       ],
       "imageSrc": "history/marketoppers.jpeg"
     },
