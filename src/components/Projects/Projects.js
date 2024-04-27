@@ -28,7 +28,7 @@ const Projects = () => {
                   <a href={projects.demo}>Demo</a>
                 </button> */}
                 <button>
-                  <a href={projects.source}>Source</a>
+                  <a href={projects.source} target="_new" rel="noopener noreferrer">Source</a>
                 </button>
               </div>
             </div>
