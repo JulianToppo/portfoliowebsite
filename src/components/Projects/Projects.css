@@ -1,0 +1,76 @@
+.container {
+    display: block;
+}
+
+.projects {
+    display: flex;
+    overflow-anchor: auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    row-gap: 5%;
+
+}
+
+.project-tab {
+    background-color: rgb(124, 128, 192);
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+    margin: 2%;
+    border-radius: 25px;
+}
+
+.project-tab img{
+    width: 100%;
+    
+}
+
+.techtags {
+    font-size: smaller;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    background-color: rgb(124, 128, 192,0.3);
+    align-content: center;
+}
+
+.tags {
+    display: inline;
+    padding: 5%;
+    padding-inline: 10%;
+    background-color: rgb(148, 137, 121);
+    margin: 2%;
+    border-radius: 25px;
+
+
+}
+
+.buttons-bars {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10%;
+    background-color: inherit;
+}
+
+a {
+    padding: 5%;
+    text-decoration: none;
+
+}
+
+button {
+    padding: 10%;
+}
+
+.projectPhoto{
+    width:400px;
+    height:100px;
+}
+.projectHeading{
+    font-weight: bolder;
+    color:white;
+}

@@ -33,7 +33,7 @@ export const exp=[
       "endDate": "Oct, 2018",
       "experiences": [
         "Coded Strategies ",
-        "Helped create UI components"
+        "Part of the R&D for develping test suite for 3g"
       ],
       "imageSrc": "history/idemia.jpeg"
     }
