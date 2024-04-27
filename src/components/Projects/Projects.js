@@ -24,9 +24,9 @@ const Projects = () => {
               </div>
 
               <div className="buttons-bars">
-                <button>
+                {/* <button>
                   <a href={projects.demo}>Demo</a>
-                </button>
+                </button> */}
                 <button>
                   <a href={projects.source}>Source</a>
                 </button>

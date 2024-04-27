@@ -23,9 +23,9 @@
     border-radius: 25px;
 }
 
-.project-tab img{
+.project-tab img {
     width: 100%;
-    
+
 }
 
 .techtags {
@@ -33,7 +33,7 @@
     display: flex;
     width: 100%;
     flex-wrap: wrap;
-    background-color: rgb(124, 128, 192,0.3);
+    background-color: rgb(124, 128, 192, 0.3);
     align-content: center;
 }
 
@@ -64,13 +64,15 @@ a {
 
 button {
     padding: 10%;
+    border-radius: 25px;
 }
 
-.projectPhoto{
-    width:400px;
-    height:100px;
+.projectPhoto {
+    width: 400px;
+    height: 100px;
 }
-.projectHeading{
+
+.projectHeading {
     font-weight: bolder;
-    color:white;
+    color: white;
 }
