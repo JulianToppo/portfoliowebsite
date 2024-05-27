@@ -2,8 +2,8 @@ export const exp=[
     {
       "role": "Backend Developer",
       "organisation": "IIT Kanpur",
-      "startDate": "Aug, 2019",
-      "endDate": "Present",
+      "startDate": "2019",
+      "endDate": "2020",
       "experiences": ["Developed APIs to automate and enhance the engineering process of collecting data from the front end using JAVA, Python and AWS."," Worked with other teams to create a system to collect and synchronize in real time using AWS, and Python."],
       "imageSrc": "history/iitk.jpg"
     },
